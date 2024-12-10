@@ -1,0 +1,46 @@
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  section {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  section h3 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  
+  ul li:last-child {
+    border-bottom: none;
+  }
+
+  .category{
+    display: flex;
+    flex-direction: column;
+  }
+  
